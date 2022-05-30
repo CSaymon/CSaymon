@@ -49,9 +49,11 @@ function activateMenuAtCurrentSection(section) {
 
 function showNavOnScroll() {
   if (scrollY != 0) {
-    navigation.classList.add('scroll')
+    //navigation.classList.add('scroll')
+    document.querySelector('#navigation').classList.add('scroll')
   } else {
-    navigation.classList.remove('scroll')
+    //navigation.classList.remove('scroll')
+    document.querySelector('#navigation').classList.remove('scroll')
   }
 }
 
